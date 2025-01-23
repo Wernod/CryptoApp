@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/crypto-list 01.51.02.iml" filepath="$PROJECT_DIR$/.idea/crypto-list 01.51.02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/crypto-list.iml" filepath="$PROJECT_DIR$/.idea/crypto-list.iml" />
     </modules>
   </component>
 </project>
