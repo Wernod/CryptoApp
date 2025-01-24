@@ -25,7 +25,6 @@ Follow these steps to set up the project on your local machine:
 
 Ensure you have the following installed on your system:
 - **Node.js** (v16 or later)
-  -**Vite.js
 - **npm** (v7 or later)
 - **MongoDB** (local or cloud-based instance)
 - **CoinMarketCap API Key**: Obtain it [here](https://coinmarketcap.com/api/).
