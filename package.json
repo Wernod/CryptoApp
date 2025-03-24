@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start:front": "cd frontend && npm run dev",
+    "start:back": "cd backend && node server.js",
+    "dev": "cd frontend && npm run dev && cd .. && cd backend && node server.js"
+  }
+}
