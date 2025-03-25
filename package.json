@@ -2,7 +2,9 @@
   "scripts": {
     "start:front": "cd frontend && npm run dev",
     "start:back": "cd backend && node server.js",
-    "dev": "concurrently \"npm run start:front\" \"npm run start:back\""
+    "dev": "concurrently \"npm run start:front\" \"npm run start:back\"",
+    "build": "cd frontend && npm install && npm run build",
+    "netlify-build": "npm install && npm run build"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
