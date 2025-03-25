@@ -20,7 +20,7 @@ function registerForm () {
         }
 
         try {
-            const response = await axios.post("http://localhost:5200/register", {
+            const response = await axios.post(`${import.meta.env.VITE_API_URL}/register`, {
                 email,
                 password,
             });
