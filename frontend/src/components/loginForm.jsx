@@ -26,7 +26,7 @@ function LoginForm() {
         setSuccess(null);
 
         try {
-            const response = await axios.post("http://localhost:5200/login", formData);
+            const response = await axios.post(`${import.meta.env.VITE_API_URL}/login`, formData);
 
             localStorage.setItem("token", response.data.token);
 

@@ -14,7 +14,7 @@ function Coin() {
     useEffect(() => {
         const fetchCryptoDetails = async () => {
             try {
-                const response = await fetch(`http://localhost:5200/api/cryptos/${id}`);
+                const response = await fetch(`${import.meta.env.VITE_API_URL}/api/cryptos/${id}`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
